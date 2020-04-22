@@ -11,19 +11,19 @@ public class CalendarConverter {
         String day;
         switch (dayNumber) {
             case 1:
-                return day ="Monday";
+                return day = "Poniedziałek";
             case 2:
-                return day ="Tuesday";
+                return day = "Wtorek";
             case 3:
-                return day ="Wednesday";
+                return day = "Środa";
             case 4:
-                return day ="Thursday";
+                return day = "Czwartek";
             case 5:
-                return day = "Friday";
+                return day = "Piątek";
             case 6:
-                return day = "Saturday";
+                return day = "Sobota";
             case 7:
-                return day ="Sunday";
+                return day = "Niedziela";
             default:
                 day = "Błędny numer";
         }
