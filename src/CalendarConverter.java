@@ -1,13 +1,13 @@
 public class CalendarConverter {
-    int Monday = 1;
-    int Tuesday = 2;
-    int Wednesday = 3;
-    int Thursday = 4;
-    int Friday = 5;
-    int Saturday = 6;
-    int Sunday = 7;
+    private int Monday = 1;
+    private int Tuesday = 2;
+    private int Wednesday = 3;
+    private int Thursday = 4;
+    private int Friday = 5;
+    private int Saturday = 6;
+    private int Sunday = 7;
 
-    String convertDayToString(int dayNumber) {
+    public static String convertDayToString(int dayNumber) {
         String day;
         switch (dayNumber) {
             case 1:
