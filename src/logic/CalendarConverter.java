@@ -10,26 +10,24 @@ public class CalendarConverter {
     private final static int SUNDAY = 7;
 
     public static String convertDayToString(int dayNumber) {
-        String day;
         switch (dayNumber) {
             case MONDAY:
-                return day = "Poniedziałek";
+                return "Poniedziałek";
             case TUESDAY:
-                return day = "Wtorek";
+                return "Wtorek";
             case WEDNESDAY:
-                return day = "Środa";
+                return "Środa";
             case THURSDAY:
-                return day = "Czwartek";
+                return "Czwartek";
             case FRIDAY:
-                return day = "Piątek";
+                return "Piątek";
             case SATURDAY:
-                return day = "Sobota";
+                return "Sobota";
             case SUNDAY:
-                return day = "Niedziela";
+                return "Niedziela";
             default:
-                day = "Błędny numer";
+                return "Błędny numer";
         }
-        return day;
     }
 
 }
