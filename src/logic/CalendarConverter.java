@@ -1,3 +1,5 @@
+package logic;
+
 public class CalendarConverter {
     private final static int MONDAY = 1;
     private final static int TUESDAY = 2;
